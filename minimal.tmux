@@ -23,7 +23,7 @@ right_state=$(get_tmux_option "@minimal-tmux-right" true)
 left_state=$(get_tmux_option "@minimal-tmux-left" true)
 
 if [ "$indicator_state" = true ]; then
-	indicator=$(get_tmux_option "@minimal-tmux-indicator-str" "  tmux  ")
+	indicator=""
 else
 	indicator=""
 fi
