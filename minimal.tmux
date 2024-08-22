@@ -12,10 +12,10 @@ get_tmux_option() {
 	echo "$default_value"
 }
 
-bg=$(get_tmux_option "@minimal-tmux-bg" '#698DDA')
-fg=$(get_tmux_option "@minimal-tmux-fg" '#000000')
+bg=$(get_tmux_option "@minimal-tmux-bg" '#90a4ae')
+fg=$(get_tmux_option "@minimal-tmux-fg" '#ffffff')
 
-status=$(get_tmux_option "@minimal-tmux-status" "bottom")
+status=$(get_tmux_option "@minimal-tmux-status" "top")
 justify=$(get_tmux_option "@minimal-tmux-justify" "centre")
 
 indicator_state=$(get_tmux_option "@minimal-tmux-indicator" true)
