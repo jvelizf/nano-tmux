@@ -19,7 +19,7 @@ status=$(get_tmux_option "@minimal-tmux-status" "top")
 justify=$(get_tmux_option "@minimal-tmux-justify" "left")
 
 indicator_state=$(get_tmux_option "@minimal-tmux-indicator" false)
-right_state=$(get_tmux_option "@minimal-tmux-right" true)
+right_state=$(get_tmux_option "@minimal-tmux-right" false)
 left_state=$(get_tmux_option "@minimal-tmux-left" true)
 
 if [ "$indicator_state" = true ]; then
