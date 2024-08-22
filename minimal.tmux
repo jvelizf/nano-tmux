@@ -28,7 +28,7 @@ else
 	indicator=""
 fi
 
-window_status_format=$(get_tmux_option "@minimal-tmux-window-status-format" ' #I:#W ')
+window_status_format=$(get_tmux_option "@minimal-tmux-window-status-format" ' #I #W ')
 status_right=$(get_tmux_option "@minimal-tmux-status-right" "#S")
 status_left=$(get_tmux_option "@minimal-tmux-status-left" "#[bg=default,fg=default,bold]#{?client_prefix,,${indicator}}#[bg=${bg},fg=${fg},bold]#{?client_prefix,${indicator},}#[bg=default,fg=default,bold]")
 expanded_icon=$(get_tmux_option "@minimal-tmux-expanded-icon" ' 󰊓 ')
