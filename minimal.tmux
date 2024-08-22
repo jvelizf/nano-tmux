@@ -18,7 +18,7 @@ fg=$(get_tmux_option "@minimal-tmux-fg" '#ffffff')
 status=$(get_tmux_option "@minimal-tmux-status" "top")
 justify=$(get_tmux_option "@minimal-tmux-justify" "left")
 
-indicator_state=$(get_tmux_option "@minimal-tmux-indicator" true)
+indicator_state=$(get_tmux_option "@minimal-tmux-indicator" false)
 right_state=$(get_tmux_option "@minimal-tmux-right" true)
 left_state=$(get_tmux_option "@minimal-tmux-left" true)
 
