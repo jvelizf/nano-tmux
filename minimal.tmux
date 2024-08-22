@@ -16,7 +16,7 @@ bg=$(get_tmux_option "@minimal-tmux-bg" '#90a4ae')
 fg=$(get_tmux_option "@minimal-tmux-fg" '#ffffff')
 
 status=$(get_tmux_option "@minimal-tmux-status" "top")
-justify=$(get_tmux_option "@minimal-tmux-justify" "centre")
+justify=$(get_tmux_option "@minimal-tmux-justify" "left")
 
 indicator_state=$(get_tmux_option "@minimal-tmux-indicator" true)
 right_state=$(get_tmux_option "@minimal-tmux-right" true)
